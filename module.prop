@@ -1,0 +1,6 @@
+id=systemhelper_debloater
+name=SystemHelper Debloater
+version=v1.0
+versionCode=1
+author=Edward
+description=Systemless 移除运营商 DM 客户端 com.mobiletools.systemhelper（小米国行全系预装的联通终端管理客户端）。原理：用空文件 magic-mount 覆盖其 priv-app APK，使 PackageManager 跳过加载。移除本模块即可恢复。
